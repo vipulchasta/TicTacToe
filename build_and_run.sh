@@ -1,3 +1,4 @@
 mkdir -p target
 clear
-javac -d target ConsoleGame.java && cd target && java ConsoleGame
+cd src
+javac -d ../target ConsoleGame.java && cd ../target && java ConsoleGame
